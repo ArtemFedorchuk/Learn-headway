@@ -1,0 +1,35 @@
+.searchWrap {
+	padding: 10px 2px;
+}
+
+.search {
+	width: 100%;
+	padding: 2px 3px;
+	border: none;
+}
+
+.contentWrapper {
+	position: relative;
+	background: #000;
+}
+
+.contentTree {
+	position: absolute;
+	bottom: 3px;
+	left: 45%;
+}
+
+.greenStart {
+	width: 100%;
+	height: 3px;
+	background: lawngreen;
+	position: absolute;
+	bottom: 0;
+}
+.finish {
+	width: 100%;
+}
+.finish img {
+	width: 100%;
+	height: 100px;
+}

@@ -1,0 +1,46 @@
+.treeWrapper {
+	color: aliceblue;
+}
+
+.iconWrapper {
+	/*padding: 0 112px 0 0;*/
+	border: none;
+}
+
+.treeIcon {
+	font-size: 30px;
+	margin: -4px;
+	background: #000;
+}
+
+.starIcon {
+	margin: -4px;
+	font-size: 35px;
+	background: #000;
+	color: gold
+}
+
+.treeWrapper span {
+	display: block;
+	padding: 20px;
+	width: 150px;
+}
+
+.treeWrapper h1 {
+	color: #fff;
+}
+
+.globalIcon {
+	color: #003a8c;
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+
+
+.treeIconBtn {
+	background: #000;
+	border: none;
+	padding: 20px;
+	margin: -8px;
+	border-radius: 50%;
+}

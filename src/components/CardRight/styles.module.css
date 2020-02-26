@@ -1,0 +1,31 @@
+.card {
+	width: 100%;
+	/*border: 2px solid rgb(23, 141, 250);*/
+	border-radius: 5px;
+	padding: 15px 30px 10px 30px;
+	background: #262626;
+	box-shadow: 0px 0px 2px #0050b3;
+}
+
+.cardFlex {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: baseline;
+	position: relative;
+}
+
+.description {
+	color: #61dcf8;
+	white-space: nowrap;
+	padding: 0 0 0 10px;
+}
+
+.line {
+	width: 85px;
+	height: 2px;
+	background: #50698a;
+	position: absolute;
+	top: 15px;
+	left: -116px;
+}

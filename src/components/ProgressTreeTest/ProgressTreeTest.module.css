@@ -1,0 +1,79 @@
+.timeline {
+	margin: 40px auto;
+	position: relative;
+}
+.timeline:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin: 0 0 0 -1px;
+	width: 3px;
+	height: 70vh;
+	background: #50698a;
+}
+
+.topIcon {
+	background: royalblue;
+	/*position: absolute;*/
+	padding: 30px;
+}
+
+section.timeline article {
+	margin: 100px 95px 0 100px ;
+	position: relative;
+	bottom: 10px;
+}
+article:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.inner {
+	position: relative;
+	width: 40%;
+	float: left;
+	margin: 5px 0 0 0;
+	border-radius: 6px;
+}
+
+.card {
+	position: absolute;
+	left: 120px;
+	bottom: -40px;
+}
+
+.cardLeft {
+	position: absolute;
+	right: 120px;
+	bottom: -40px;
+}
+
+.date {
+	display: block;
+	width: 60px;
+	height: 60px;
+	padding: 5px 0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin: -32px;
+	border-radius: 100%;
+	text-transform: uppercase;
+	background: #25303B;
+	border: 2px solid rgba(255,255,255,0.2);
+	box-shadow: 0 0 0 7px rgba(255,255,255,0.2);
+}
+
+.date img {
+	position: absolute;
+	left: -7px;
+	top: -6px;
+	width: 70px;
+	border-radius: 100%;
+}
+
+section.timeline article:nth-child(2n+2) div.inner {
+	float: right;
+}
